@@ -1,0 +1,16 @@
+//PROGRAM ON MULTIPLICATIION TABLE//
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int n,i=1,num;
+	printf("Enter a number:");
+	scanf("%d",&n);
+	for(i=1;i<=12;i++)
+	{
+	printf("%dX%d ",n,i);
+	num=n*i;
+	printf("=%d\n",num);
+}
+    return 0;
+}
