@@ -1,0 +1,18 @@
+//PROGRAM TO PRINT ODD NUMBERS BTW N1 AND N2 EXECEPT THIRD NUMBER//
+#include<stdio.h>
+main()
+{
+	int n1,n2,i,count;
+	scanf("%d",&n1);
+	scanf("%d",&n2);
+	for(i=n1;i<=n2;i++)
+	{
+	if(i%2!=0)
+	{
+	if(count!=3)
+	printf("%d\t",i);
+	count++;	
+}
+	}
+	return 0;
+}
